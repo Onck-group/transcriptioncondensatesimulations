@@ -1,0 +1,16 @@
+[ defaults ]
+; nbfunc  comb-rule  gen-pairs	 fudgeLJ  fudgeQQ
+    1        1           no	   1.0      1.0
+
+#include "forcefield.itp"
+#include "HNF1A.itp"
+#include "POLIIcharged.itp"
+
+[ system ]
+; Name
+Multimolecule
+
+[ molecules ]
+; Compound	#mols
+HNF1A    45
+POLIIcharged    30

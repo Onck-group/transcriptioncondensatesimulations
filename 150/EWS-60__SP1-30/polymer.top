@@ -1,0 +1,16 @@
+[ defaults ]
+; nbfunc  comb-rule  gen-pairs	 fudgeLJ  fudgeQQ
+    1        1           no	   1.0      1.0
+
+#include "forcefield.itp"
+#include "EWS.itp"
+#include "SP1.itp"
+
+[ system ]
+; Name
+Multimolecule
+
+[ molecules ]
+; Compound	#mols
+EWS    60
+SP1    30
